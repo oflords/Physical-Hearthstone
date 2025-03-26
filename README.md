@@ -2,6 +2,10 @@
 
 > A somewhat faithful re-creation of Classic Hearthstone for the tabletop, made by oflords
 
+## Video
+
+If you would like to watch, not read, check out the [video here](https://www.youtube.com/watch?v=SknM-7xaqJA)
+
 ## Changes Made
 
 While I wanted to stay as faithful to the first version of Hearthstone, I also wanted to include some changes that make the game play better, include more memerable cards and overall be simpler for the tabletop. This does however come at the sacrifice of some cards and effects, if I missed your favourite you can always tweak this list.
@@ -23,47 +27,35 @@ While I wanted to stay as faithful to the first version of Hearthstone, I also w
 * Summoned 1/1s, 2/1s and 2/2s will now be referred to as Tokens.
     > To avoid needing to print Snakes, Hounds, Treants, etc, those common summoned cards will now be tokens, which are generic cards taking the form of various amalgams with the required statlines. This helps clear confusion, streamline effects and require less overall cards to make the game work. The only downside to this approach is you do need tribe tokens so summoned beasts can still be targeted at the correct times, but I prefer the change.
 
-### Card Pool Additions
-
-* Potion of Polymorph
-    > To ensure Mage has enough Secrets and seeing the removal of Mirror Entity, I added Potion of Polymorph as I feel it is a comparable effect. I also adjusted the rarity to Common to make it exactly take the slot.
-* Fel Reaver
-    > Needed something to fill the slot of a neutral epic and it was printed early enough and is a simple mechanic for the tabletop. Also has a similar swing effect as faceless.
-* Loatheb
-    > A popular card, released in the first card drop after the games launch. Also I wanted to play it.
-* Reno Jackson
-    > Highlander in classic might struggle a little, but could make for a fun time with a friend.
-* Sir Finley Mrrgglton
-    > Fun mechanic, iconic, the whole package.
-
 ### Card Pool Removals
 
-* Faceless Manipulator
-    > To avoid situations where copies of all cards are in use or using blank cards as fill ins, the exclusion of this card was in my mind justified.
-* Mirror Entity
-    > Same as Faceless Manipulator
 * Nozdurmu
     > I thought about nerfing the effect to 30 seconds, but in a physical card game, there can be too many questions regarding if a move made was "legal", so putting the clock this heavily on players seems unfair and too annoying to deal with.
-* Elite Tauren Chieftain
-    > Needs a lot of special cards printed for an effect that was never super popular. No thank you.
-* Geblin Mekkatorque
-    > Too many cards, yuck.
 
-## Priest Rework
+### Card Pool Substitutions
 
-While looking through cards to discard, Priest stuck out like a sore thumb in regards to work. It had a total of three cards that revolve around copying cards, something which I am trying to avoid. The cards in question that I removed are:
+If you do not care about substituting, please ignore the below sections.
 
-* Mind Vision
-* Thoughtsteal
-* Mindgames
+* Potion of Polymorph > Mirror Entity
+    > To ensure Mage has enough Secrets and seeing the removal of Mirror Entity, I added Potion of Polymorph as I feel it is a comparable effect. I also adjusted the rarity to Common to make it exactly take the slot.
+* Fel Reaver > Faceless Manipulator
+    > Needed something to fill the slot of a neutral epic and it was printed early enough and is a simple mechanic for the tabletop. Also has a similar swing effect as faceless.
+* Loatheb > Elite Tauren Chieftain
+    > A popular card, released in the first card drop after the games launch. Also I wanted to play it.
+* Reno Jackson > Gelbin Mekkatorque
+    > Highlander in classic might struggle a little, but could make for a fun time with a friend.
+* Sir Finley Mrrgglton > Nozdurmu
+    > Fun mechanic, iconic, the whole package.
 
-To replace them, I have added:
+### Priest Substitutions
 
-* Scarlet Subjugator (Common)
-* Thoughtsteal (Epic)
-* Power Infusion (Basic)
+While looking through cards to ensure worked on the tabletop, Priest stuck out like a sore thumb in regards to work. It had a total of three cards that revolve around copying cards, something which I am trying to avoid (copying cards relies on large amounts of trust). Due to this, you can replace the following with the other substitutes:
 
-### Creation Guide
+* Mind Vision > Scarlet Subjugator (Common)
+* Thoughtsteal > Thoughtsteal (Epic)
+* Mindgames > Power Infusion (Basic)
+
+## Creation Guide
 
 1. Download or clone this repository and navigate to the JSON folder within.
 2. Import the .hcards onto hearthcards.net and export them as .png
